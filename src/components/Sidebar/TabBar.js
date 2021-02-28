@@ -154,6 +154,15 @@ const TabBar = observer(({ activeTab, onTabChange }) => {
             <span>Global Sequencing Coverage</span>
           </a>
         </TabItem>
+        <TabItem active={activeTab === TABS.TAB_LITEMOL}>
+          <a
+            href="#"
+            className="tab-link"
+            onClick={changeTab.bind(this, TABS.TAB_LITEMOL)}
+          >
+            <span>Litemol</span>
+          </a>
+        </TabItem>
         <TabItem active={activeTab === TABS.TAB_ABOUT}>
           <a
             href="#"
