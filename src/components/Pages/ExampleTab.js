@@ -39,6 +39,15 @@ import USCDCPrimerImage from '../../assets/analysis_screens/us_cdc_primer.png';
 import D614GEuropeNAImage from '../../assets/analysis_screens/d614g_europe_na.png';
 import N203204Image from '../../assets/analysis_screens/n_203_204_coocurrence.png';
 
+const IntroText = styled.p`
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1.4;
+  margin: 0px 20px 10px 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+`;
+
 const ExampleTabContainer = styled.div`
   background-color: #f8f8f8;
 `;
@@ -486,6 +495,32 @@ const ExampleTab = observer(() => {
             </li>
           </ul>
         </TOC> */}
+
+        <IntroText>
+          COVID CG was built by a team from the{' '}
+          <ExternalLink href="https://broadinstitute.org">
+            Broad Institute of MIT and Harvard
+          </ExternalLink>
+          . It is a browser-based tracker that allows scientists to survey and
+          visualize the global genetic landscape of the SARS-CoV-2 virus at any
+          given point in time. It pulls together all of the sequenced SARS-CoV-2
+          genomes that have been uploaded to the{' '}
+          <ExternalLink href="https://gisaid.org">GISAID</ExternalLink>{' '}
+          database. Through COVID CG’s interactive graphics, users can detect
+          emerging genetic mutations and viral variants, monitor which mutations
+          and viral genomes are present in specific parts of the world and how
+          their prevalence changes over time, and identify which variants
+          scientists should test their vaccines and therapeutics against.
+          <br />
+          Read more about COVID CG via the{' '}
+          <ExternalLink href="https://www.broadinstitute.org/news/online-tool-tracks-mutations-covid-19-virus">
+            Broad Institute’s press release
+          </ExternalLink>{' '}
+          and the{' '}
+          <ExternalLink href="https://elifesciences.org/articles/63409">
+            eLife publication!
+          </ExternalLink>
+        </IntroText>
 
         <SurveillancePlot width={width - 150} />
         <div style={{ height: '15px' }} />
