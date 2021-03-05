@@ -123,7 +123,7 @@ const GlobalSeqPlot = ({ width }) => {
         </ExternalLink>
         ). Data from cases and sequences are grouped by month to reduce noise.
         Regions with &gt;20 sequences per 1000 cases are colored the same in the
-        left map.
+        map.
       </HelpText>
       <HelpText>
         Hover over points in the top-left plot, or over countries on the map, to
