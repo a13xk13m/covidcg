@@ -1,3 +1,5 @@
+![](https://github.com/vector-engineering/covidcg/raw/master/src/assets/images/cg_logo_v13.png)
+
 ## COVID-19 CG (CoV Genetics)
 
 **Article now up at eLife: [https://doi.org/10.7554/eLife.63409](https://doi.org/10.7554/eLife.63409)**
@@ -5,6 +7,7 @@
 Table of Contents
 
 - [COVID-19 CG (CoV Genetics)](#covid-19-cg-cov-genetics)
+- [Introduction](#introduction)
 - [Installation](#installation)
   - [Dependency changes](#dependency-changes)
   - [Database refresh](#database-refresh)
@@ -21,6 +24,12 @@ Table of Contents
   - [License](#license)
   - [Contributing](#contributing)
 
+
+## Introduction
+
+COVID CG was built by a team from the [Broad Institute of MIT and Harvard](https://broadinstitute.org). It is a browser-based tracker that allows scientists to survey and visualize the global genetic landscape of the SARS-CoV-2 virus at any given point in time. It pulls together all of the sequenced SARS-CoV-2 genomes that have been uploaded to the [GISAID](https://gisaid.org) database. Through COVID CG’s interactive graphics, users can detect emerging genetic mutations and viral variants, monitor which mutations and viral genomes are present in specific parts of the world and how their prevalence changes over time, and identify which variants scientists should test their vaccines and therapeutics against.
+
+Read more about COVID CG via the [Broad Institute’s press release](https://www.broadinstitute.org/news/online-tool-tracks-mutations-covid-19-virus) and the [eLife publication](https://elifesciences.org/articles/63409)
 
 ## Installation
 
