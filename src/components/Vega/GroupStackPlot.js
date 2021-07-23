@@ -172,6 +172,10 @@ const GroupStackPlot = observer(({ width }) => {
       return;
     }
 
+    if (UIStore.caseDataState !== ASYNC_STATES.SUCCEEDED) {
+      return;
+    }
+
     setState({
       ...state,
       data: {
